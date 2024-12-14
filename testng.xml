@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="test.Tc1_navigatetowebsite" />
+			<class name="test.Tc2_signupSJ" />
+			<class name="test.Tc3_LoginSJ" />
+			<class name="test.Tc4_onewayTrip" />
+			<class name="test.Tc5_RoundTrip" />
+			<class name="test.Tc6_SelectFlight" />
+			<class name="test.Tc7_FillPassengerDetails" />
+			<class name="test.Tc8_BookingDetails" />
+			<class name="test.Tc9_ValidateFieldCheckIn" />
+			<class name="test.Tc9_ValidateFieldFlightStatus" />
+			<class name="test.Tc9_ValidateFieldManageBooking" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

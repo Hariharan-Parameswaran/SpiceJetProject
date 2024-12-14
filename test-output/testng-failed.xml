@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.Tc8_BookingDetails">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="bookingDetails" invocation-numbers="0"/>
+          <include name="reportInitilization"/>
+          <include name="setup"/>
+          <include name="testDetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc8_BookingDetails -->
+      <class name="test.Tc9_ValidateFieldManageBooking">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="managebooking" invocation-numbers="0"/>
+          <include name="reportInitilization"/>
+          <include name="setup"/>
+          <include name="testDetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc9_ValidateFieldManageBooking -->
+      <class name="test.Tc4_onewayTrip">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="setup"/>
+          <include name="reportInitilization"/>
+          <include name="testDetails"/>
+          <include name="oneWaytrip" invocation-numbers="0"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc4_onewayTrip -->
+      <class name="test.Tc9_ValidateFieldCheckIn">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="setup"/>
+          <include name="reportInitilization"/>
+          <include name="testDetails"/>
+          <include name="validateField" invocation-numbers="0"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc9_ValidateFieldCheckIn -->
+      <class name="test.Tc6_SelectFlight">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="reportInitilization"/>
+          <include name="selectFlight" invocation-numbers="0"/>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc6_SelectFlight -->
+      <class name="test.Tc5_RoundTrip">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="roundTrip" invocation-numbers="0"/>
+          <include name="reportInitilization"/>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc5_RoundTrip -->
+      <class name="test.Tc9_ValidateFieldFlightStatus">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="reportInitilization"/>
+          <include name="checkFlightStatus" invocation-numbers="0"/>
+          <include name="testDetails"/>
+          <include name="setup"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc9_ValidateFieldFlightStatus -->
+      <class name="test.Tc7_FillPassengerDetails">
+        <methods>
+          <include name="browserLanch"/>
+          <include name="reportInitilization"/>
+          <include name="bookingForm" invocation-numbers="0"/>
+          <include name="testDetails"/>
+          <include name="browserClose"/>
+          <include name="setup"/>
+          <include name="reportClose"/>
+        </methods>
+      </class> <!-- test.Tc7_FillPassengerDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
